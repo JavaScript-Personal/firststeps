@@ -1,17 +1,5 @@
-function soma (a,b){
-    return a+b
-}
-
-function sub(a,b){
-    return a-b
-}
-
-function multi (a,b){
-    return a*b
-}
-
-function div(a,b){
-    return a/b
-}
-
-console.log(sub(2,4))
+var somafunc = require("./soma")
+var subfunc = require("./sub")
+var multifunc = require("./multi")
+var divfunc = require("./div")
+console.log(somafunc(2,4), subfunc(2,4),multifunc(2,4),divfunc(2,4))
